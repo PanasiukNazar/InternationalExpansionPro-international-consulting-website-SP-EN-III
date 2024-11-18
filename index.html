@@ -151,7 +151,7 @@
                     </div>
 
                     <div
-                        class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1"
+                        class="col-12 col-sm-12 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1 mb-4"
                     >
                         <div class="feature-1 d-md-flex">
                             <div class="align-self-center">
@@ -179,7 +179,7 @@
                     </div>
 
                     <div
-                        class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3"
+                        class="col-12 col-sm-12 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3"
                     >
                         <div class="feature-1 d-md-flex">
                             <div class="align-self-center">
@@ -456,13 +456,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                         <div class="media-1">
                             <a href="#" class="d-block mb-3"
                                 ><img
                                     src="images/why-choose-1.jpg"
                                     alt="Image"
                                     class="img-fluid"
+                                    style="width: 100%"
                             /></a>
                             <div class="d-flex align-items-center">
                                 <div>
@@ -485,13 +486,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                         <div class="media-1">
                             <a href="#" class="d-block mb-3"
                                 ><img
                                     src="images/why-choose-2.jpg"
                                     alt="Image"
                                     class="img-fluid"
+                                    style="width: 100%"
                             /></a>
 
                             <div class="d-flex align-items-center">
@@ -515,13 +517,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                         <div class="media-1">
                             <a href="#" class="d-block mb-3"
                                 ><img
                                     src="images/why-choose-3.jpg"
                                     alt="Image"
                                     class="img-fluid"
+                                    style="width: 100%"
                             /></a>
                             <div class="d-flex align-items-center">
                                 <div>
@@ -545,13 +548,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                         <div class="media-1">
                             <a href="#" class="d-block mb-3"
                                 ><img
                                     src="images/why-choose-4.jpg"
                                     alt="Image"
                                     class="img-fluid"
+                                    style="width: 100%"
                             /></a>
 
                             <div class="d-flex align-items-center">
@@ -876,7 +880,6 @@
                     showCursor: true,
                     preStringTyped: (arrayPos, self) => {
                         arrayPos++;
-                        console.log(arrayPos);
                         $('.slides img').removeClass('active');
                         $('.slides img[data-id="' + arrayPos + '"]').addClass(
                             'active',
